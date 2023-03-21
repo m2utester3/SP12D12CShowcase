@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+
+WebUI.delay(30)
 
 WebUI.click(findTestObject('Object Repository/apply cards/Page_Maybank2u  Maybank Malaysia/span_Maybank Cards'))
 
