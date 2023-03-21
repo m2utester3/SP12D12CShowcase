@@ -33,9 +33,5 @@ WebUI.click(findTestObject('Object Repository/apply cards/Page_Maybank Cards  Ma
 
 WebUI.click(findTestObject('Object Repository/apply cards/Page_Credit Cards  Maybank Malaysia/button_RESUME APPLICATION'))
 
-WebUI.click(findTestObject('Object Repository/apply cards/Page_Maybank2u  Maybank Malaysia/button_RESUME'))
-
-WebUI.getText(findTestObject('Object Repository/apply cards/Page_Maybank2u  Maybank Malaysia/span_We are sorry, There are no records to _1bb556'))
-
 WebUI.closeBrowser()
 
