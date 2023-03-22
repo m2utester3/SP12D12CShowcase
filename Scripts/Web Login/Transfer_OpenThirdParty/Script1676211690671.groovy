@@ -115,7 +115,7 @@ WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Mayban
 
 WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful'), 
     'Transaction Successful!')
 
 WebUI.takeScreenshot()

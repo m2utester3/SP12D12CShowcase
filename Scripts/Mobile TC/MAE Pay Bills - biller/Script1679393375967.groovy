@@ -49,27 +49,35 @@ Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.TextView - Pay Bills'
 
 Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.ImageView'), 0)
 
-not_run: Mobile.setText(findTestObject('MAE PayBills/spy2/type biller edit box'), 'Tenaga Nasional', 0)
+'TNB'
+Mobile.setText(findTestObject('MAE PayBills/spy2/type biller edit box'), 'Tenaga Nasional', 0)
 
-Mobile.setText(findTestObject('MAE PayBills/spy2/type biller edit box'), 'Visa Infinite', 0)
+'VISA\n'
+not_run: Mobile.setText(findTestObject('MAE PayBills/spy2/type biller edit box'), 'Visa Infinite', 0)
 
 WebUI.delay(2)
 
 Mobile.takeScreenshot()
 
-not_run: Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+'TNB'
+Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAE PayBills/Visa Infinite'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+'VISA\n'
+not_run: Mobile.tap(findTestObject('MAE PayBills/Visa Infinite'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)
 
-not_run: Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+'TNB'
+Mobile.tap(findTestObject('MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAE PayBills/Visa Infinite'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+'VISA'
+not_run: Mobile.tap(findTestObject('MAE PayBills/Visa Infinite'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.setText(findTestObject('MAE PayBills/spy2/type account number'), '210311409607', 0)
+'TNB\n'
+Mobile.setText(findTestObject('MAE PayBills/spy2/type account number'), '210311409607', 0)
 
-Mobile.setText(findTestObject('MAE PayBills/spy2/type account number'), '4365000260004396', 0)
+'VISA'
+not_run: Mobile.setText(findTestObject('MAE PayBills/spy2/type account number'), '4365000260004396', 0)
 
 WebUI.delay(2)
 

@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE_TS3,,,,2023-03-22 13:53:42,2023-03-22 13:55:29,1m - 46.716s,PASSED
+,,,,,,,
+Test Cases/Mobile TC/MAE Pay Bills - biller,,,,2023-03-22 13:53:43,2023-03-22 13:55:29,1m - 45.830s,PASSED
+"startExistingApplication(""com.maybank2u.life"")",,,,2023-03-22 13:53:44,2023-03-22 13:54:02,18.006s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Pay Bills""), 0)",,,,2023-03-22 13:54:02,2023-03-22 13:54:03,0.937s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:03,2023-03-22 13:54:04,1.016s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Pay Bills""), 0)",,,,2023-03-22 13:54:04,2023-03-22 13:54:04,0.450s,PASSED
+"setText(findTestObject(""Object Repository/MAE PayBills/android.widget.EditText - M2U password""), findTestData(""DevOps"").getValue(2, 1), 0)",,,,2023-03-22 13:54:04,2023-03-22 13:54:08,3.508s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:08,2023-03-22 13:54:10,1.766s,PASSED
+hideKeyboard(),,,,2023-03-22 13:54:10,2023-03-22 13:54:11,1.606s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Continue""), 0)",,,,2023-03-22 13:54:11,2023-03-22 13:54:12,0.640s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Continue""), 0)",,,,2023-03-22 13:54:12,2023-03-22 13:54:12,0.467s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Tenaga Nasional Berhad""), 0)",,,,2023-03-22 13:54:12,2023-03-22 13:54:12,0.004s,NOT_RUN
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Tenaga Nasional Berhad""), 0)",,,,2023-03-22 13:54:12,2023-03-22 13:54:12,0.014s,NOT_RUN
+delay(3),,,,2023-03-22 13:54:12,2023-03-22 13:54:16,3.196s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:16,2023-03-22 13:54:16,0.531s,PASSED
+"tap(findTestObject(""MAE PayBills/SPY/android.widget.TextView - Pay Bills""), 0)",,,,2023-03-22 13:54:16,2023-03-22 13:54:17,0.536s,PASSED
+"tap(findTestObject(""MAE PayBills/SPY/android.widget.ImageView""), 0)",,,,2023-03-22 13:54:17,2023-03-22 13:54:19,2.126s,PASSED
+"setText(findTestObject(""MAE PayBills/spy2/type biller edit box""), ""Tenaga Nasional"", 0)",,TNB,,2023-03-22 13:54:19,2023-03-22 13:54:21,1.664s,PASSED
+"setText(findTestObject(""MAE PayBills/spy2/type biller edit box""), ""Visa Infinite"", 0)",,"VISA
+",,2023-03-22 13:54:21,2023-03-22 13:54:21,0.005s,NOT_RUN
+delay(2),,,,2023-03-22 13:54:21,2023-03-22 13:54:23,2.008s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:23,2023-03-22 13:54:23,0.541s,PASSED
+"tap(findTestObject(""MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad""), 0, CONTINUE_ON_FAILURE)",,TNB,,2023-03-22 13:54:23,2023-03-22 13:54:24,0.457s,PASSED
+"tap(findTestObject(""MAE PayBills/Visa Infinite""), 0, CONTINUE_ON_FAILURE)",,"VISA
+",,2023-03-22 13:54:24,2023-03-22 13:54:24,0.004s,NOT_RUN
+delay(3),,,,2023-03-22 13:54:24,2023-03-22 13:54:27,3.007s,PASSED
+"tap(findTestObject(""MAE PayBills/SPY/android.widget.TextView - Tenaga Nasional Berhad""), 0, CONTINUE_ON_FAILURE)",,TNB,,2023-03-22 13:54:27,2023-03-22 13:54:27,0.470s,PASSED
+"tap(findTestObject(""MAE PayBills/Visa Infinite""), 0, CONTINUE_ON_FAILURE)",,VISA,,2023-03-22 13:54:27,2023-03-22 13:54:27,0.003s,NOT_RUN
+"setText(findTestObject(""MAE PayBills/spy2/type account number""), ""210311409607"", 0)",,"TNB
+",,2023-03-22 13:54:27,2023-03-22 13:54:29,2.025s,PASSED
+"setText(findTestObject(""MAE PayBills/spy2/type account number""), ""4365000260004396"", 0)",,VISA,,2023-03-22 13:54:29,2023-03-22 13:54:29,0.005s,NOT_RUN
+delay(2),,,,2023-03-22 13:54:29,2023-03-22 13:54:31,2.005s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:31,2023-03-22 13:54:32,0.531s,PASSED
+hideKeyboard(),,,,2023-03-22 13:54:32,2023-03-22 13:54:33,1.511s,PASSED
+"tap(findTestObject(""MAE PayBills/SPY/android.widget.TextView - Continue""), 0, CONTINUE_ON_FAILURE)",,,,2023-03-22 13:54:33,2023-03-22 13:54:33,0.353s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Enter amount""), 0)",,,,2023-03-22 13:54:33,2023-03-22 13:54:35,1.293s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - 1""), 0)",,,,2023-03-22 13:54:35,2023-03-22 13:54:36,0.828s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.ImageView""), 0)",,,,2023-03-22 13:54:36,2023-03-22 13:54:36,0.411s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - The minimum payment for this transaction is RM 1""), 0)",,,,2023-03-22 13:54:36,2023-03-22 13:54:37,1.001s,PASSED
+delay(3),,,,2023-03-22 13:54:37,2023-03-22 13:54:40,3.006s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:40,2023-03-22 13:54:40,0.506s,PASSED
+delay(5),,,,2023-03-22 13:54:40,2023-03-22 13:54:46,5.007s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - 0""), 0)",,,,2023-03-22 13:54:46,2023-03-22 13:54:46,0.433s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - 0""), 0)",,,,2023-03-22 13:54:46,2023-03-22 13:54:46,0.458s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.ImageView""), 0)",,,,2023-03-22 13:54:46,2023-03-22 13:54:47,0.402s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:47,2023-03-22 13:54:47,0.462s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Today""), 0)",,,,2023-03-22 13:54:47,2023-03-22 13:54:49,1.876s,PASSED
+delay(3),,,,2023-03-22 13:54:49,2023-03-22 13:54:52,3.008s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:52,2023-03-22 13:54:53,0.526s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Today""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:53,0.001s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - 31""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:53,0.002s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Done""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:53,0.002s,NOT_RUN
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Done""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:53,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Pay Now""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:53,0.432s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Pay Now""), 0)",,,,2023-03-22 13:54:53,2023-03-22 13:54:54,0.444s,PASSED
+delay(3),,,,2023-03-22 13:54:54,2023-03-22 13:54:57,3.012s,PASSED
+takeScreenshot(),,,,2023-03-22 13:54:57,2023-03-22 13:54:57,0.483s,PASSED
+"tap(findTestObject(""MAE PayBills/S2U""), 0)",,,,2023-03-22 13:54:57,2023-03-22 13:54:58,0.505s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Payment scheduled""), 0)",,,,2023-03-22 13:54:58,2023-03-22 13:54:58,0.003s,NOT_RUN
+delay(3),,,,2023-03-22 13:54:58,2023-03-22 13:55:01,3.009s,PASSED
+takeScreenshot(),,,,2023-03-22 13:55:01,2023-03-22 13:55:01,0.483s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Share Receipt""), 0)",,,,2023-03-22 13:55:01,2023-03-22 13:55:01,0.370s,PASSED
+delay(10),,,,2023-03-22 13:55:01,2023-03-22 13:55:11,10.009s,PASSED
+takeScreenshot(),,,,2023-03-22 13:55:11,2023-03-22 13:55:12,0.536s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.ImageView (1)""), 0)",,,,2023-03-22 13:55:12,2023-03-22 13:55:12,0.355s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Done (1)""), 0)",,,,2023-03-22 13:55:12,2023-03-22 13:55:14,1.380s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-22 13:55:14,2023-03-22 13:55:16,2.328s,PASSED
+takeScreenshot(),,,,2023-03-22 13:55:16,2023-03-22 13:55:17,1.059s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-22 13:55:17,2023-03-22 13:55:18,0.469s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - Savings Account-i""), 0)",,,,2023-03-22 13:55:18,2023-03-22 13:55:20,2.199s,PASSED
+"getText(findTestObject(""Object Repository/MAE PayBills/android.widget.TextView - View Transactions""), 0)",,,,2023-03-22 13:55:20,2023-03-22 13:55:21,1.591s,PASSED
+takeScreenshot(),,,,2023-03-22 13:55:21,2023-03-22 13:55:22,0.938s,PASSED
+"tap(findTestObject(""MAE PayBills/android.widget.TextView - View Transactions""), 0)",,,,2023-03-22 13:55:22,2023-03-22 13:55:23,0.394s,PASSED
+delay(5),,,,2023-03-22 13:55:23,2023-03-22 13:55:28,5.008s,PASSED
+takeScreenshot(),,,,2023-03-22 13:55:28,2023-03-22 13:55:28,0.505s,PASSED
+"tap(findTestObject(""Object Repository/MAE PayBills/android.widget.ImageView (2)""), 0)",,,,2023-03-22 13:55:28,2023-03-22 13:55:29,0.389s,PASSED
+closeApplication(),,,,2023-03-22 13:55:29,2023-03-22 13:55:29,0.384s,PASSED
